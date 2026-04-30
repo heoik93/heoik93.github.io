@@ -1953,3 +1953,39 @@ textarea.form-control {
     stroke-dashoffset: -136px;
   }
 }
+
+/* Skill Category Tags */
+.skill-category-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: #2c3e50;
+    margin-bottom: 10px;
+    padding-bottom: 4px;
+    border-bottom: 2px solid #3e64ff;
+    display: inline-block;
+}
+
+.skill-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 6px;
+}
+
+.skill-tag {
+    display: inline-block;
+    padding: 5px 12px;
+    background-color: #f0f4ff;
+    color: #2c3e50;
+    border: 1px solid #d0d9f5;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.skill-tag:hover {
+    background-color: #3e64ff;
+    color: #ffffff;
+    border-color: #3e64ff;
+    cursor: default;
+}
